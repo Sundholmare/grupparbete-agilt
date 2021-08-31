@@ -8,11 +8,11 @@ const Navbar = () => {
       <nav className={Styles.content}>
         <img src={imgLogga} alt="" className={Styles.logo} />
         <div className={Styles.links}>
-          <Link to="/">About</Link>
-          <Link to="/">Contact</Link>
+          <Link to="/">ABOUT</Link>
+          <Link to="/">CONTACT</Link>
           <Link to="/">FAQ</Link>
-          <Link to="/">Login</Link>
-          <Link to="/">Sign up</Link>
+          <Link to="/">LOGIN</Link>
+          <Link to="/">SIGN UP</Link>
         </div>
 
         <div className={Styles.langBtns}>
