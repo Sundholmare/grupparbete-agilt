@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.wrapper {
+  height: 110px;
+  padding: 0 20px;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 210px;
+
+  padding-bottom: 15px;
+}
+
+.links {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 40px 0 40px;
+}
+
+.links a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #131010;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.links a:hover {
+  color: #f39077;
+}
+
+.langBtns {
+  width: 62px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.svBtn,
+.enBtn {
+  width: 30px;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background: #131010;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s;
+}
+
+.enBtn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.svBtn {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.svBtn:hover,
+.enBtn:hover {
+  background: #f39077;
+}
