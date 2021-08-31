@@ -1,14 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 .hero {
   height: 100vh;
   background-color: #8a607d;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .heroBox {
   height: 439px;
   width: 1249px;
-  background-color: aquamarine;
+  background-color: rgba(161, 114, 145, 0.71);
   text-align: center;
+  border-radius: 40px;
+}
+
+.heroTitle {
+  color: white;
+  margin-top: 3rem;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+
+.heroText {
+  color: white;
+  margin: 2rem 16rem;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.heroButton {
+  width: 268px;
+  height: 58px;
+  border-radius: 10px;
+  background-color: #f39077;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 2rem;
 }
