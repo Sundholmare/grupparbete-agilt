@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+.footer{ 
+  font-family: 'Roboto', sans-serif;
+  background: rgba(138, 96, 125, 0.08);
+  height: 22rem;
+}
+
+.footerTop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75%;
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  padding: 10px 20px;
+  border-bottom: solid 2px rgba(86, 86, 86, 0.5);
+}
+
+.logo{
+  width: 15rem;
+  opacity: .80;
+  padding-bottom: 35px;
+}
+
+.contactInfo{
+  text-align: center;
+}
+
+.contactInfo p{
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 5px;
+}
+
+.iconBox{
+  padding-top: 20px;
+}
+
+.icon {
+  width: 2.2rem;
+  margin: 0 10px;
+  opacity: 0.70;
+}
+
+.footerBottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 25%;
+  max-width: 80%;
+  margin: auto;
+}
+
+.footerMenu{
+  display: flex;
+  list-style: none;
+}
+
+.footerMenu li{
+  margin: 0 2.5rem;
+}
+
+.link{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: .15em;
+}
+
+.link:hover {
+  color: rgba(240, 120, 90, 1);
+}
+
+.copyright{
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: .1em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
