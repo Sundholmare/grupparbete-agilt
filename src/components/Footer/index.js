@@ -1,16 +1,27 @@
 import Styles from './footer.module.css';
 import Logo from '../../images/loggor/logga.png'
+import facebook from '../../images/loggor/facebook-square-brands.svg'
+import instagram from '../../images/loggor/instagram-brands.svg'
+import twitter from '../../images/loggor/twitter-brands.svg'
+import snapchat from '../../images/loggor/snapchat-square-brands.svg'
 
 const Footer = () => {
   return (
     <footer className={Styles.footer}>
       <div className={Styles.footerTop}>
-        <img src={Logo} alt="logo" />
+        <div className={Styles.logoBox}>
+          <img className={Styles.logo} src={Logo} alt="logo" />
+        </div>
         <div className={Styles.contactInfo}>
           <p>+46 7 604 782 64</p>
           <p>Knottvägen 24 Helsingborg</p>
         </div>
-        <img src="https://worldofprintables.com/wp-content/uploads/2020/12/Social-Icons-01-Free-SVG.png" alt="social-media" />
+        <div className={Styles.iconBox}>
+          <img className={Styles.icon} src={snapchat} alt="snapchat" />
+          <img className={Styles.icon} src={twitter} alt="twitter" />
+          <img className={Styles.icon} src={facebook} alt="facebook" />
+          <img className={Styles.icon} src={instagram} alt="instagram" />
+        </div>
       </div>
 
       <div className={Styles.footerBottom}>
@@ -32,8 +43,10 @@ const Footer = () => {
           </li>
         </ul>
 
-        <span>© Copyright Delux 2021</span>
+        <span className={Styles.copyright}>© Copyright Delux 2021</span>
       </div>
     </footer>
   )
 }
+
+export default Footer
