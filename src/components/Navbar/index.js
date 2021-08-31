@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import imgLogga from '../../images/logga.png';
+import imgLogga from '../../images/loggor/logga.png';
 import './navbar.css';
 
 const Navbar = () => {
