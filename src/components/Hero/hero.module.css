@@ -1,0 +1,14 @@
+.hero {
+  height: 100vh;
+  background-color: #8a607d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroBox {
+  height: 439px;
+  width: 1249px;
+  background-color: aquamarine;
+  text-align: center;
+}
