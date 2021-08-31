@@ -10,10 +10,11 @@ function App() {
     <Router>
       <div className="main-wrapper">
         <div className="App">
-          <Navbar />
+          <About/>
+          {/* <Navbar />
           <Hero />
           <Offer />
-          <Footer />
+          <Footer /> */}
         </div>
       </div>
     </Router>
