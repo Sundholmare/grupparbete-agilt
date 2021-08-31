@@ -1,0 +1,48 @@
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    width: 50%;
+}
+
+.userBox{
+    background: #F39077;
+    width: 400px;
+}
+
+.userAvatar{
+    background: #f8f9fa;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.userAvatar{
+    width: 80px;
+    height: 80px;
+}

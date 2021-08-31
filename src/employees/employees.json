@@ -1,0 +1,44 @@
+
+[{
+    "name": "Tim",
+    "role": "Chief Technical Officer",
+    "interests": "Unknown beers and vintage bikes",
+    "id": 1 
+},
+{
+    "name": "Frida",
+    "role": "Chief Financial Officer",
+    "interests": "Dogs and donuts",
+    "id": 2
+},
+{
+    "name": "Marcus",
+    "role": "Head of Human Resources",
+    "interests": "Anime and Speedcore",
+    "id": 3
+},
+{
+    "name": "Filip",
+    "role": "Head of Janitorial Services",
+    "interests": "Crying and hamburgers",
+    "id": 4
+},
+{
+    "name": "Miriam",
+    "role": "Receptionist",
+    "interests": "Flowers and karaoke nights",
+    "id": 5
+},
+{
+    "name": "Olga",
+    "role": "Gardening expert",
+    "interests": "Ultramarathons",
+    "id": 6
+},
+{
+    "name": "Tony",
+    "role": "First responder",
+    "interests": "Waterballons",
+    "id": 7
+}
+]
