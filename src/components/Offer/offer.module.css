@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.offer {
+  height: 700px;
+  background-image: url("../../images/bakgrund/Bakgrund.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 5rem 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.offerTitle {
+  padding-top: 5rem;
+  font-size: 4.5rem;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.offerCards {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  height: 308px;
+  width: 100%;
+  grid-gap: 15rem;
+  margin-top: 5rem;
+}
+
+.offerCardOne,
+.offerCardTwo,
+.offerCardThree {
+  background-color: white;
+  height: 239px;
+  width: 239px;
+  border-radius: 20px;
+}
+
+.offerCardTitle {
+  color: red;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.offerCardPara {
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

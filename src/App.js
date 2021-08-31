@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/about/index';
 import Hero from './components/Hero';
+import Offer from './components/Offer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div className="App">
           <Navbar />
           <Hero />
+          <Offer />
         </div>
       </div>
     </Router>
