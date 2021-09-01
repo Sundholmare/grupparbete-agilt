@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.quota {
+  background-color: #f39077;
+  height: 721px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.quotaQuestion {
+  color: white;
+  padding: 2.5rem 0;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.quotaBox {
+  height: 497px;
+  width: 973.9px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.quotaTitleBox {
+  background-color: #e3e2e2;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotaTitle {
+  color: #8a607d;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+}
+
+.quotaForm {
+  display: flex;
+  flex-direction: column;
+}

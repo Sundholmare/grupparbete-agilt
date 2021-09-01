@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 .hero {
-  height: 100vh;
+  height: 89vh;
   background-color: #8a607d;
   display: flex;
   justify-content: center;
@@ -43,4 +43,10 @@
   letter-spacing: 2px;
   font-weight: bold;
   margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.heroButton:hover {
+  background-color: #fb7554;
 }
