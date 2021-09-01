@@ -4,6 +4,7 @@ import About from './components/about/index';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Footer from './components/Footer';
+import Faq from './components/Faq'
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/faq">
+              <Faq />
             </Route>
           </Switch>
           <Footer />
