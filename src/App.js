@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import About from './components/about/index';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
-import Footer from './components/Footer';
+import Footer from './components/Footer'
+
 
 function App() {
   return (
