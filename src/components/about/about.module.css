@@ -10,6 +10,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap%27');
 
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    background: var(--orange);
+}
+
+
 .mainBox{
     display: flex;
     flex-direction: column;
@@ -17,22 +29,36 @@
     align-items: center;
     color: var(--white);
     font-family: 'Roboto', sans-serif;
+    background: var(--white);
+    border-radius: 20px;
+    margin: 50px;
+    height: 1700px;
 }
 
 .container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     justify-items: center;
-    width: 40%;
-    height: 100%;
-    
+    width: 80vw;
+    min-height: 1000px;
+    margin: 20px;
 }
+
+.hero{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 .userBox{
     background: var(--orange);
     width: 300px;
-    height: 500px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -75,11 +101,12 @@
     cursor: pointer;
     font-weight: bold;
     color: var(--black);
+    margin-top: -10px;
 }
 
 .shortDesc{
-    background: var(--lightPurple);
-    color: var(--white);
+    background: var(--white);
+    color: var(--black);
     width: 90%;
     height: 150px;
     border-radius: 12px;
@@ -89,25 +116,25 @@
     font-weight: 700;
     font-size: 16px;
     box-shadow: 8px 11px 14px -6px rgba(0,0,0,0.49);
-    border: 2px solid var(--white);
 }
 
 .logo{
     margin-top: 20px;
+    width: 500px;
+    height: 100px;
 }
 
 .catch{
-    font-size: 30px;
-    font-style: italic;
-    margin: 10px;
+    font-size: 40px;
     color: var(--black);
 }
 
 .desc{
     text-align: center;
-    width: 600px;
-    font-size: 20px;
-    line-height: 1.8rem;
+    width: 80%;
+    font-size: 30px;
+    line-height: 3rem;
+    letter-spacing: 2px;
     margin: 10px 0 30px;
     color: var(--black);
 }
