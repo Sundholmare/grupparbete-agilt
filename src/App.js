@@ -5,6 +5,7 @@ import AboutSV from './components/about/indexSV';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Footer from './components/Footer';
+import Faq from './components/Faq'
 import { useState } from 'react';
 
 function App() {
@@ -15,18 +16,21 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
         <div className="main-wrapper">
+          <Navbar />
           <Switch>
             <Route exact path="/">
               <Hero />
               <Offer />
-              <Footer />
             </Route>
             <Route path="/about">
               {language ? <AboutEN /> : <AboutSV />}
             </Route>
+            <Route path="/faq">
+              <Faq />
+            </Route>
           </Switch>
+          <Footer />
         </div>
       </div>
     </Router>
