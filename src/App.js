@@ -1,12 +1,18 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import About from './components/about/index';
+import AboutEN from './components/about/index';
+import AboutSV from './components/about/indexSV';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Footer from './components/Footer';
 import Faq from './components/Faq'
+import { useState } from 'react';
 
 function App() {
+
+  const [language, setLanguage] = useState(true);
+
+
   return (
     <Router>
       <div className="App">
@@ -18,7 +24,7 @@ function App() {
               <Offer />
             </Route>
             <Route path="/about">
-              <About />
+              {language ? <AboutEN /> : <AboutSV />}
             </Route>
             <Route path="/faq">
               <Faq />
