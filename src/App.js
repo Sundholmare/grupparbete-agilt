@@ -6,11 +6,11 @@ import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Footer from './components/Footer';
 import Faq from './components/Faq'
-import { useState } from 'react';
+import {useSelector} from 'react-redux';
 
 function App() {
 
-  const [language, setLanguage] = useState(true);
+  const language = useSelector(state => state);
 
 
   return (
