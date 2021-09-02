@@ -51,6 +51,8 @@
   padding: 5px;
   margin-bottom: 10px;
   border-bottom: 2px solid rgba(123, 123, 123, 0.32);
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .qHeading{
@@ -70,15 +72,20 @@
 }
 
 .answer{
-  display: none;
+  opacity: 0;
   font-size: 12px;
   width: 70%;
-  margin: 15px auto 10px 120px;
+  max-height: 0;
+  margin: 0 auto 0 120px;
   padding-left: 12px;
   color: #7E7E7E;
   border-left: 2px solid #F39077 ;
+  transition: .2s ease-out;
 }
 
 .active{
-  display: block;
+  opacity: 1;
+  max-height: 300px;
+  transition: .15s ease-in;
+  margin: 10px auto 10px 120px;
 }
