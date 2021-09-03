@@ -17,19 +17,29 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
-  padding: 100px 45px 0 45px;
+
+  /* padding: 100px 45px 0 45px; */
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
 }
 
-/* .opacity {
-  background: #ffffff;
-} */
+.opacity {
+  width: 960px;
+  min-height: 680px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 100px 45px 0 45px;
+
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff46;
+}
 
 .content {
   width: 600px;
   min-height: 580px;
-  background: red;
   display: flex;
   align-items: center;
   justify-content: center;
