@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/index';
+import NavbarEN from './components/Navbar/indexEN';
 import AboutEN from './components/about/index';
 import AboutSV from './components/about/indexSV';
 import Hero from './components/Hero';
@@ -16,7 +17,7 @@ function App() {
     <Router>
       <div className="App">
         <div className="main-wrapper">
-          <Navbar />
+          <Route path="/*">{language ? <NavbarEN /> : <Navbar />}</Route>
           <Switch>
             <Route exact path="/">
               <Hero />

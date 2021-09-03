@@ -12,11 +12,11 @@ const Contact = () => {
             <form>
               <label>Namn</label>
               <span>
-                <input type="text" required value />
-                <input type="text" required value />
+                <input type="text" placeholder="Förnamn" />
+                <input type="text" placeholder="Efternamn" />
               </span>
               <label>Email</label>
-              <input type="text" required value />
+              <input type="text" placeholder="Email" />
 
               <label>Ämne</label>
               <select value>
