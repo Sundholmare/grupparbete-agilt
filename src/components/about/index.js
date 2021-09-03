@@ -2,7 +2,6 @@ import employees from '../../employees/employees.json';
 import Styles from './about.module.css'
 import bosse from './20200807_203247_2.jpg';
 import logga from '../../images/loggor/logganamn.png';
-import { useState } from 'react';
 
 const About = () => {
 
