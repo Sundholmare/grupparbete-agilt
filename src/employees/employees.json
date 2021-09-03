@@ -1,44 +1,58 @@
 
 [{
-    "name": "Tim",
+    "firstName": "Tim",
+    "lastName": "Hansen",
     "role": "Chief Technical Officer",
-    "interests": "Unknown beers and vintage bikes",
+    "email": "tim.hansen@swervice.com",
+    "desc": "Tim, the big brain of the company. With his bright mind we have gotten over our biggest hurdles and improved our workflow tenfold! When it comes to technical challenges, he's our man.",
     "id": 1 
 },
 {
-    "name": "Frida",
+    "firstName": "Frida",
+    "lastName": "Waldt",
     "role": "Chief Financial Officer",
-    "interests": "Dogs and donuts",
+    "email": "frida.waldt@swervice.com",
+    "desc": "Swervice very own Wolf of Wall Street! Brilliant head for numbers and a giant heart for friendship. With this girl at our company there are no numbers too big.",
     "id": 2
 },
 {
-    "name": "Marcus",
+    "firstName": "Marcus",
+    "lastName": "Järveskog",
     "role": "Head of Human Resources",
-    "interests": "Anime and Speedcore",
+    "email": "marcus.jarveskog@swervice.com",
+    "desc": "Marcus the teddybear as we like to call him. Putting human rights and comfort at the workplace as number 1 priority, this guy makes everyone feel at home.",
     "id": 3
 },
 {
-    "name": "Filip",
+    "firstName": "Filip",
+    "lastName": "Sundholm",
     "role": "Head of Janitorial Services",
-    "interests": "Crying and hamburgers",
+    "email": "filip.sundholm@swervice.com",
+    "desc": "Some of you might have seen Filip out on your tasks but you might not know that he also maintains the company's own fascillities and logistical services.",
     "id": 4
 },
 {
-    "name": "Miriam",
+    "firstName": "Miriam",
+    "lastName": "Bryant",
     "role": "Receptionist",
-    "interests": "Flowers and karaoke nights",
+    "email": "miriam.bryant@swervice.com",
+    "desc": "Not only does she answer all your calls with the biggest smile, but she also sings on her freetime! She puts the Swervice name out there with her lovely songs.",
     "id": 5
 },
 {
-    "name": "Olga",
+    "firstName": "Olga",
+    "lastName": "Golga",
     "role": "Gardening expert",
-    "interests": "Ultramarathons",
+    "email": "olga.golga@swervice.com",
+    "desc": "Olga is our most senior employee and she has never showed up to work without that well known eastern european smile! Loves the outdoors and takes care of your garden like it was her own.",
     "id": 6
 },
 {
-    "name": "Tony",
+    "firstName": "Tony",
+    "lastName": "Toyota",
     "role": "First responder",
-    "interests": "Waterballons",
+    "email": "tony.toyota@swervice.com",
+    "desc": "Tony the handyman! He knows his way around every tool and around every hard problem. Our customers have always told us how happy they are that Tony was available to help them out with their chores.",
     "id": 7
 }
 ]

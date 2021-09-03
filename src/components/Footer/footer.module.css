@@ -61,7 +61,7 @@
 }
 
 .footerMenu li{
-  margin: 0 2.5rem;
+  margin: 0 2rem;
 }
 
 .link{
@@ -83,3 +83,14 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
+@media screen and (max-width: 1600px) {
+  .footerBottom{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .footerMenu li{
+    margin: 0 1rem;
+  }
+}
