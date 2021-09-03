@@ -4,6 +4,7 @@ import AboutEN from './components/about/index';
 import AboutSV from './components/about/indexSV';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
+import Quotation from './components/Quotation'
 import Footer from './components/Footer';
 import Faq from './components/Faq';
 import Contact from './components/Contact';
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/">
               <Hero />
               <Offer />
+              <Quotation />
             </Route>
             <Route path="/about">{language ? <AboutEN /> : <AboutSV />}</Route>
             <Route path="/faq">
