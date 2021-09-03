@@ -5,12 +5,21 @@ import AboutSV from './components/about/indexSV';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Footer from './components/Footer';
+<<<<<<< HEAD
 import Faq from './components/Faq';
 import Contact from './components/Contact';
 import { useState } from 'react';
 
 function App() {
   const [language, setLanguage] = useState(true);
+=======
+import Faq from './components/Faq'
+import {useSelector} from 'react-redux';
+
+function App() {
+
+  const language = useSelector(state => state);
+>>>>>>> c8f666406d486c3fbe9fccb1a2a209e3ed139b88
 
   return (
     <Router>
