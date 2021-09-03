@@ -5,13 +5,12 @@ import AboutSV from './components/about/indexSV';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Footer from './components/Footer';
-import Faq from './components/Faq'
-import {useSelector} from 'react-redux';
+import Faq from './components/Faq';
+import Contact from './components/Contact';
+import { useSelector } from 'react-redux';
 
 function App() {
-
-  const language = useSelector(state => state);
-
+  const language = useSelector((state) => state);
 
   return (
     <Router>
@@ -23,12 +22,13 @@ function App() {
               <Hero />
               <Offer />
             </Route>
-            <Route path="/about">
-              {language ? <AboutEN /> : <AboutSV />}
-            </Route>
+            <Route path="/about">{language ? <AboutEN /> : <AboutSV />}</Route>
             <Route path="/faq">
               <Faq />
             </Route>
+            <Contact path="/contact">
+              <Faq />
+            </Contact>
           </Switch>
           <Footer />
         </div>
