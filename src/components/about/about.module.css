@@ -127,6 +127,7 @@
 .catch{
     font-size: 40px;
     color: var(--black);
+    letter-spacing: 3px;
 }
 
 .desc{
