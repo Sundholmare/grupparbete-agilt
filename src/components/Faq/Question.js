@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import Styles from './faq.module.css';
-import plus from '../../images/ikoner/plus-solid.svg'
-import minus from '../../images/ikoner/minus-solid.svg'
 
 const Question = (props) => {
 
