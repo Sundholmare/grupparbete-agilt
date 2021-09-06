@@ -22,7 +22,7 @@ const About = () => {
                     </p>
                     <div className={Styles.dividerBar}>
                         <h2 className={Styles.divider}>Detta är vårt team</h2>
-                        <a href="#anchor"><FontAwesomeIcon icon={faChevronDown} size="6x" className={Styles.icon} /></a>
+                        <a href="#anchor"><FontAwesomeIcon icon={faChevronDown} size="4x" className={Styles.icon} /></a>
                     </div>
                 </section>
             <div className={Styles.container} id="anchor" >
