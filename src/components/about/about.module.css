@@ -34,7 +34,8 @@
     background: var(--white);
     border-radius: 20px;
     margin: 50px;
-    height: 1700px;
+    min-height: 1800px;
+    height: auto;
 }
 
 .container{
@@ -44,12 +45,14 @@
     justify-items: center;
     width: 80vw;
     min-height: 1000px;
-    margin: 100px 0 20px;
+    height: auto;
+    overflow: none;
+    margin: 150px 0 20px;
 }
 
 .hero{
     width: 100%;
-    height: 30%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,6 +133,7 @@
     font-size: 40px;
     color: var(--black);
     letter-spacing: 7px;
+    margin-bottom: 40px;
 }
 
 .desc{
@@ -138,7 +142,7 @@
     font-size: 30px;
     line-height: 3rem;
     letter-spacing: 2px;
-    margin: 10px 0 30px;
+    margin: 10px 0 50px;
     color: var(--black);
 }
 
@@ -148,20 +152,31 @@
 }
 
 .dividerBar{
-    background: var(--orange);
-    width: 90%;
-    height: 100px;
-    border-radius: 20px;
+    background: var(--lightPurple);
+    width: 100%;
+    height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 80px 0 0;
+    border-top-left-radius: 75%;
+    border-bottom-right-radius: 75%;
 }
 
 .divider{
     font-size: 36px; 
     letter-spacing: 3px; 
-    border: 4px solid var(--white);
-    width: 300px;
+    width: 400px;
     padding: 10px;
     border-radius: 20px;
+}
+
+.icon{
+    color: var(--white);
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
 }

@@ -1,9 +1,11 @@
 import employees from '../../employees/employees.json';
 import Styles from './about.module.css'
 import bosse from './20200807_203247_2.jpg';
-import logga from '../../images/loggor/logganamn.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
+
 
     return (
         <div className={Styles.wrapper}>
@@ -18,10 +20,12 @@ const About = () => {
                         We at Swervice got your back seven days a week.
                     </p>
                     <div className={Styles.dividerBar}>
-                        <h2 className={Styles.divider}>This is us</h2>
+                        <h2 className={Styles.divider}>This is our team</h2>
+                        <a href="#anchor"><FontAwesomeIcon icon={faChevronDown} size="4x" className={Styles.icon} /></a>
                     </div>
+                    
                 </section>
-                <div className={Styles.container}>
+                <div className={Styles.container} id="anchor" >
                     <div className={Styles.userBox}>
                     <h2 className={Styles.name}>Bosse Waldt</h2>
                             <h4 className={Styles.role}>Chief Executive Officer</h4>
