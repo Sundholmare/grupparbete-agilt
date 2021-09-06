@@ -7,7 +7,8 @@ import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Footer from './components/Footer';
 import Faq from './components/Faq';
-import Contact from './components/Contact';
+import Contact from './components/Contact/index';
+import ContactEN from './components/Contact/indexEn';
 import { useSelector } from 'react-redux';
 
 function App() {
@@ -27,9 +28,10 @@ function App() {
             <Route path="/faq">
               <Faq />
             </Route>
-            <Contact path="/contact">
-              <Faq />
-            </Contact>
+            <Route path="/contact">
+              {language ? <ContactEN /> : <Contact />}
+            </Route>
+            <Faq />
           </Switch>
           <Footer />
         </div>

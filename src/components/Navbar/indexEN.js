@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import imgLogga from '../../images/loggor/logga.png';
 import Styles from './navbar.module.css';
 import { useDispatch } from 'react-redux';
@@ -10,15 +10,42 @@ const Navbar = () => {
   return (
     <div className={Styles.wrapper}>
       <nav className={Styles.content}>
-        <Link to="/">
+        <NavLink to="/">
           <img src={imgLogga} alt="" className={Styles.logo} />
-        </Link>
+        </NavLink>
         <div className={Styles.links}>
-          <Link to="/about">ABOUT US</Link>
-          <Link to="/contact">CONTACT</Link>
-          <Link to="/faq">FAQ</Link>
-          <Link to="#">LOGIN</Link>
-          <Link to="#">SIGN UP</Link>
+          <NavLink
+            to="/about"
+            activeStyle={{
+              fontWeight: 'bold',
+              color: ' #F39077',
+              fontSize: '24px',
+            }}
+          >
+            ABOUT
+          </NavLink>
+          <NavLink
+            to="/contact"
+            activeStyle={{
+              fontWeight: 'bold',
+              color: ' #F39077',
+              fontSize: '24px',
+            }}
+          >
+            CONTACT
+          </NavLink>
+          <NavLink
+            to="/faq"
+            activeStyle={{
+              fontWeight: 'bold',
+              color: ' #F39077',
+              fontSize: '24px',
+            }}
+          >
+            FAQ
+          </NavLink>
+          <NavLink to="#">LOGIN</NavLink>
+          <NavLink to="#">SIGN UP</NavLink>
         </div>
 
         <div className={Styles.langBtns}>

@@ -25,25 +25,25 @@ const Contact = () => {
           </div>
           <div className={Styles.content}>
             <form>
-              <label>Namn</label>
+              <label>Name</label>
               <span>
-                <input type="text" placeholder="Förnamn" />
-                <input type="text" placeholder="Efternamn" />
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Surname" />
               </span>
               <label>Email</label>
               <input type="text" placeholder="Email" />
 
-              <label>Ämne</label>
+              <label>Subject</label>
               <select>
-                <option>Fråga om tjänst</option>
+                <option>Questions about our services</option>
                 <option>Feedback</option>
-                <option>Klagomål</option>
-                <option>Generella frågor</option>
+                <option>Complaints</option>
+                <option>General questions</option>
               </select>
 
-              <label>Beskrivning</label>
+              <label>Describe the request</label>
               <textarea required></textarea>
-              <button>SKICKA</button>
+              <button>SEND</button>
             </form>
           </div>
         </div>
