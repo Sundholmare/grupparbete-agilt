@@ -5,7 +5,8 @@ import AboutSV from './components/about/indexSV';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Footer from './components/Footer';
-import Faq from './components/Faq';
+import Faq from './components/Faq/index';
+import FaqSV from './components/Faq/indexSV'
 import Contact from './components/Contact';
 import { useSelector } from 'react-redux';
 
@@ -24,7 +25,7 @@ function App() {
             </Route>
             <Route path="/about">{language ? <AboutEN /> : <AboutSV />}</Route>
             <Route path="/faq">
-              <Faq />
+            {language ? <Faq /> : <FaqSV />}
             </Route>
             <Contact path="/contact">
               <Faq />
