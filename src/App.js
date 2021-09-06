@@ -3,19 +3,23 @@ import Navbar from './components/Navbar';
 import About from './components/about/index';
 import Hero from './components/Hero';
 import Offer from './components/Offer';
-import Quotation from './components/Quotation'
-import Footer from './components/Footer'
-
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
-      <div className="main-wrapper">
-        <div className="App">
+      <div className="App">
+        <div className="main-wrapper">
           <Navbar />
-          <Hero />
-          <Offer />
-          <Quotation />
+          <Switch>
+            <Route exact path="/">
+              <Hero />
+              <Offer />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+          </Switch>
           <Footer />
         </div>
       </div>
