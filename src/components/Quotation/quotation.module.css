@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.quota {
+  background-color: #f39077;
+  height: 721px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.quotaQuestion {
+  color: white;
+  padding: 2.5rem 0;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.quotaBox {
+  height: 497px;
+  width: 973.9px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.quotaTitleBox {
+  background-color: #e3e2e2;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotaTitle {
+  color: #8a607d;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+}
+
+.quotaForm {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px; */
+  width: 100%;
+}
+
+.quotaForm div {
+  display: flex;
+  align-items: center;
+}
+
+.quotaForm label {
+  text-align: right;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  width: 200px;
+
+}
+
+.quotaForm span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quotaForm input {
+}
+
+.quotaForm input, .quotaForm textarea{
+  width: 400px;
+  padding: 8px 20px;
+  margin: 10px 0;
+  border: 1px solid #999999;
+  display: block;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000b9;
+  background-color: #E5E5E5;
+}
+
+.quotaForm textarea{
+  padding: 50px;
+}
+
+.quotaForm input:nth-child(1),
+.quotaForm input:nth-child(2) {
+  width: 190px;
+}
+
+.quotaForm button {
+  background: #8A607D;
+  color: #fff;
+  border: 0;
+  padding: 12px 50px;
+  width: 268px;
+  height: 58px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+}
