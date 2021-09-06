@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import Styles from './footer.module.css';
+
 import Logo from '../../images/loggor/logga.png'
 import facebook from '../../images/loggor/facebook-square-brands.svg'
 import instagram from '../../images/loggor/instagram-brands.svg'
@@ -27,19 +29,19 @@ const Footer = () => {
       <div className={Styles.footerBottom}>
         <ul className={Styles.footerMenu}>
           <li>
-            <a className={Styles.link} href="#">OM OSS</a>
+            <Link className={Styles.link} to="/about">OM OSS</Link>
           </li>
           <li>
-            <a className={Styles.link} href="#">KONTAKT</a>
+            <Link className={Styles.link} to="/contact">KONTAKT</Link>
           </li>
           <li>
-            <a className={Styles.link} href="#">VANLIGA FRÅGOR</a>
+            <Link className={Styles.link} to="/faq">VANLIGA FRÅGOR</Link>
           </li>
           <li>
-            <a className={Styles.link} href="#">LOGGA IN</a>
+            <Link className={Styles.link} to="#">LOGGA IN</Link>
           </li>
           <li>
-            <a className={Styles.link} href="#">REGISTRERA DIG</a>
+            <Link className={Styles.link} to="#">REGISTRERA DIG</Link>
           </li>
         </ul>
 

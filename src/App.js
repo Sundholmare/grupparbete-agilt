@@ -1,11 +1,22 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import About from './components/about/index';
-import Hero from './components/Hero';
-import Offer from './components/Offer';
+import AboutEN from './components/about/index';
+import AboutSV from './components/about/indexSV';
+import HeroEN from './components/Hero/index';
+import HeroSV from './components/Hero/indexSV';
+import OfferEN from './components/Offer/index';
+import OfferSV from './components/Offer/indexSV';
+import QuotationEN from './components/Quotation/index'
+import QuotationSV from './components/Quotation/indexSV'
+
 import Footer from './components/Footer';
+import Faq from './components/Faq';
+import Contact from './components/Contact';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const language = useSelector((state) => state);
+
   return (
     <Router>
       <div className="App">
@@ -13,12 +24,17 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/">
-              <Hero />
-              <Offer />
+              {language ? <HeroEN /> : <HeroSV />}
+              {language ? <OfferEN /> : <OfferSV />}
+              {language ? <QuotationEN /> : <QuotationSV />}
             </Route>
-            <Route path="/about">
-              <About />
+            <Route path="/about">{language ? <AboutEN /> : <AboutSV />}</Route>
+            <Route path="/faq">
+              <Faq />
             </Route>
+            <Contact path="/contact">
+              <Faq />
+            </Contact>
           </Switch>
           <Footer />
         </div>

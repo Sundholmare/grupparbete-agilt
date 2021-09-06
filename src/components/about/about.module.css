@@ -1,113 +1,145 @@
-:root {
-  --white: #f8f9fa;
-  --orange: #f39077;
-  --lightPurple: #a17292;
-  --purple: #8a607d;
-  --black: #131010;
+
+:root{
+    --white: #f8f9fa;
+    --orange: #F39077;
+    --lightPurple: #A17292;
+    --purple: #8A607D;
+    --black: #131010;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap%27');
 
-.mainBox {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  color: var(--white);
-  font-family: 'Roboto', sans-serif;
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    background: var(--orange);
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  justify-items: center;
-  width: 40%;
-  height: 100%;
+
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    background: var(--white);
+    border-radius: 20px;
+    margin: 50px;
+    height: 1700px;
 }
 
-.userBox {
-  background: var(--orange);
-  width: 300px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  box-shadow: 8px 11px 14px -6px rgba(0, 0, 0, 0.49);
-  border-radius: 12px;
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    width: 80vw;
+    min-height: 1000px;
+    margin: 20px;
 }
 
-.userAvatar {
-  background: var(--white);
-  border-radius: 50%;
-  padding: 20px;
-  border: 2px solid black;
-  transform: scale(1.2);
-  margin-bottom: 20px;
+.hero{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.userAvatar:hover {
-  transform: scale(1.4);
-  transition: transform 0.4s;
+
+.userBox{
+    background: var(--orange);
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 8px 11px 14px -6px rgba(0,0,0,0.49);
+    border-radius: 12px;
 }
 
-.bosse {
-  background: none;
-  padding: 0;
+.userAvatar{
+    background: var(--white);
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    transform: scale(1.2);
+    margin-bottom: 20px;
 }
 
-.name {
-  font-size: 30px;
+.userAvatar:hover{
+    transform: scale(1.4);
+    transition: transform 0.4s;
 }
 
-.role {
-  margin-top: -30px;
-  font-size: 20px;
+.bosse{
+    background: none;
+    padding: 0;
 }
 
-.email {
-  cursor: pointer;
-  font-weight: bold;
-  color: var(--black);
+
+.name{
+    font-size: 30px;
 }
 
-.shortDesc {
-  background: var(--lightPurple);
-  color: var(--white);
-  width: 90%;
-  height: 150px;
-  border-radius: 12px;
-  padding: 10px;
-  text-align: center;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 16px;
-  box-shadow: 8px 11px 14px -6px rgba(0, 0, 0, 0.49);
-  border: 2px solid var(--white);
+.role{
+    margin-top: -30px;
+    font-size: 20px;
 }
 
-.logo {
-  margin-top: 20px;
+
+.email{
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--black);
+    margin-top: -10px;
 }
 
-.catch {
-  font-size: 30px;
-  font-style: italic;
-  margin: 10px;
-  color: var(--black);
+.shortDesc{
+    background: var(--white);
+    color: var(--black);
+    width: 90%;
+    height: 150px;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 8px 11px 14px -6px rgba(0,0,0,0.49);
 }
 
-.desc {
-  text-align: center;
-  width: 600px;
-  font-size: 20px;
-  line-height: 1.8rem;
-  margin: 10px 0 30px;
-  color: var(--black);
+.logo{
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
 }
 
-.userAvatar {
-  width: 80px;
-  height: 80px;
+.catch{
+    font-size: 40px;
+    color: var(--black);
+}
+
+.desc{
+    text-align: center;
+    width: 80%;
+    font-size: 30px;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    margin: 10px 0 30px;
+    color: var(--black);
+}
+
+.userAvatar{
+    width: 80px;
+    height: 80px;
 }
