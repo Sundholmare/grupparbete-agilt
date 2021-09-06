@@ -9,14 +9,17 @@ const About = () => {
         <div className={Styles.wrapper}>
             <main className={Styles.mainBox}>
                 <section className={Styles.hero}>
-                    <img className={Styles.logo} src={logga} alt="logo" />
-                    <h1 className={Styles.catch}>Abnormal is the new normal</h1>
+                    <h1 className={Styles.logo}>Swervice</h1>
+                    <h1 className={Styles.catch}>ABNORMAL IS THE NEW NORMAL</h1>
                     <p className={Styles.desc}>We are here to help you with your day-to-day chores.
                         Don't have time to mow the lawn? We got you!
                         Can't be bothered to clean up after last nights celebration? We're on it!
                         No task is too odd and no request too large.
                         We at Swervice got your back seven days a week.
                     </p>
+                    <div className={Styles.dividerBar}>
+                        <h2 className={Styles.divider}>This is us</h2>
+                    </div>
                 </section>
                 <div className={Styles.container}>
                     <div className={Styles.userBox}>

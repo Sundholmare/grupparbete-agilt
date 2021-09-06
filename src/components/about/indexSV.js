@@ -10,8 +10,8 @@ const About = () => {
         <div className={Styles.wrapper}>
             <main className={Styles.mainBox}>
                 <section className={Styles.hero}>
-                    <img className={Styles.logo} src={logga} alt="logo" />
-                    <h1 className={Styles.catch}>Onormal är det nya normala</h1>
+                    <h1 className={Styles.logo}>Swervice</h1>
+                    <h1 className={Styles.catch}>ONORMAL ÄR DET NYA NORMALA</h1>
                     <p className={Styles.desc}>
                         Vi är här för att hjälpa dig med dina dagliga sysslor.
                         Har du inte tid att klippa gräset? Vi löser det!
@@ -26,7 +26,7 @@ const About = () => {
                 <h4 className={Styles.role}>Chief Executive Officer</h4>
                             <p className={Styles.email}>bosse.waldt@swervice.com</p>
                             <img className={`${Styles.userAvatar} ${Styles.bosse}`} src={bosse} alt="headshot" />
-                            <p className={Styles.shortDesc} >Our big chief in command! The only CEO in town that cuddles ALL of his employees. Kind and gentle but might leave a little too much hair around the place.</p>
+                            <p className={Styles.shortDesc} >Våran störa hövding! Den enda chefen i staden som gosar med ALLA sina anställda. Snäll och varm men kan även lämna lite väl med hår runt vår arbetsplats.</p>
                 </div>
                 {employees.map((employee) => {
                     return <div className={Styles.userBox} key={employee.id}>
@@ -34,7 +34,7 @@ const About = () => {
                             <h4 className={Styles.role}>{employee.role}</h4>
                             <p className={Styles.email}>{employee.email}</p>
                             <img className={Styles.userAvatar} src={`https://avatars.dicebear.com/api/croodles-neutral/${employee.firstName}.svg?scale=120`} alt="headshot" />
-                            <p className={Styles.shortDesc} >{employee.desc}</p>
+                            <p className={Styles.shortDesc} >{employee.descSV}</p>
                     </div>})}
                 </div>
             </main>
