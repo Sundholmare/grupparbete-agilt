@@ -1,7 +1,8 @@
 import employees from '../../employees/employees.json';
 import Styles from './about.module.css'
 import bosse from './20200807_203247_2.jpg';
-import logga from '../../images/loggor/logganamn.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
 
@@ -19,8 +20,12 @@ const About = () => {
                         Ingen syssla är för udda och ingen förfrågan för stor.
                         Vi här på Swervice har din rygg sju dagar i veckan.
                     </p>
+                    <div className={Styles.dividerBar}>
+                        <h2 className={Styles.divider}>Detta är vårt team</h2>
+                        <a href="#anchor"><FontAwesomeIcon icon={faChevronDown} size="6x" className={Styles.icon} /></a>
+                    </div>
                 </section>
-            <div className={Styles.container}>
+            <div className={Styles.container} id="anchor" >
                 <div className={Styles.userBox}>
                 <h2 className={Styles.name}>Bosse Waldt</h2>
                 <h4 className={Styles.role}>Chief Executive Officer</h4>
