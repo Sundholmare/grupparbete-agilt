@@ -1,4 +1,3 @@
-//import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import imgLogga from '../../images/loggor/logga.png';
 import Styles from './navbar.module.css';
@@ -23,7 +22,7 @@ const Navbar = () => {
               fontSize: '24px',
             }}
           >
-            OM OSS
+            ABOUT
           </NavLink>
           <NavLink
             to="/contact"
@@ -33,7 +32,7 @@ const Navbar = () => {
               fontSize: '24px',
             }}
           >
-            KONTAKT
+            CONTACT
           </NavLink>
           <NavLink
             to="/faq"
@@ -45,8 +44,8 @@ const Navbar = () => {
           >
             FAQ
           </NavLink>
-          <NavLink to="#">LOGGA IN</NavLink>
-          <NavLink to="#">REGISTRERA DIG</NavLink>
+          <NavLink to="#">LOGIN</NavLink>
+          <NavLink to="#">SIGN UP</NavLink>
         </div>
 
         <div className={Styles.langBtns}>
