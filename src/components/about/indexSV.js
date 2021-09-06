@@ -31,7 +31,7 @@ const About = () => {
                 <h4 className={Styles.role}>Chief Executive Officer</h4>
                             <p className={Styles.email}>bosse.waldt@swervice.com</p>
                             <img className={`${Styles.userAvatar} ${Styles.bosse}`} src={bosse} alt="headshot" />
-                            <p className={Styles.shortDesc} >Våran störa hövding! Den enda chefen i staden som gosar med ALLA sina anställda. Snäll och varm men kan även lämna lite väl med hår runt vår arbetsplats.</p>
+                            <p className={Styles.shortDesc} >Våran stora hövding! Den enda chefen i staden som gosar med ALLA sina anställda. Snäll och varm men kan även lämna lite väl med hår runt vår arbetsplats.</p>
                 </div>
                 {employees.map((employee) => {
                     return <div className={Styles.userBox} key={employee.id}>
