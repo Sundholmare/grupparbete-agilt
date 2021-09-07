@@ -9,7 +9,8 @@ import OfferEN from './components/Offer/index';
 import OfferSV from './components/Offer/indexSV';
 import QuotationEN from './components/Quotation/index'
 import QuotationSV from './components/Quotation/indexSV'
-import Footer from './components/Footer';
+import Footer from './components/Footer/index';
+import FooterSV from './components/Footer/indexSV'
 import Faq from './components/Faq/index';
 import FaqSV from './components/Faq/indexSV'
 import Contact from './components/Contact';
@@ -40,7 +41,7 @@ function App() {
             </Route>
             <Faq />
           </Switch>
-          <Footer />
+          {language ? <Footer /> : <FooterSV />}
         </div>
       </div>
     </Router>

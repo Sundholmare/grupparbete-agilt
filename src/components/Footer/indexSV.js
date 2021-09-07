@@ -29,19 +29,19 @@ const Footer = () => {
       <div className={Styles.footerBottom}>
         <ul className={Styles.footerMenu}>
           <li>
-            <Link className={Styles.link} to="/about">ABOUT</Link>
+            <Link className={Styles.link} to="/about">OM OSS</Link>
           </li>
           <li>
-            <Link className={Styles.link} to="/contact">CONTACT</Link>
+            <Link className={Styles.link} to="/contact">KONTAKT</Link>
           </li>
           <li>
-            <Link className={Styles.link} to="/faq">FAQ</Link>
+            <Link className={Styles.link} to="/faq">VANLIGA FRÅGOR</Link>
           </li>
           <li>
-            <Link className={Styles.link} to="#">LOGIN</Link>
+            <Link className={Styles.link} to="#">LOGGA IN</Link>
           </li>
           <li>
-            <Link className={Styles.link} to="#">SIGN UP</Link>
+            <Link className={Styles.link} to="#">REGISTRERA DIG</Link>
           </li>
         </ul>
 
