@@ -6,8 +6,10 @@ import HeroEN from './components/Hero/index';
 import HeroSV from './components/Hero/indexSV';
 import OfferEN from './components/Offer/index';
 import OfferSV from './components/Offer/indexSV';
-import QuotationEN from './components/Quotation/index'
-import QuotationSV from './components/Quotation/indexSV'
+import QuotationEN from './components/Quotation/index';
+import QuotationSV from './components/Quotation/indexSV';
+import ProductsEN from './components/Products/index';
+import ProductsSV from './components/Products/indexSV';
 
 import Footer from './components/Footer';
 import Faq from './components/Faq';
@@ -26,6 +28,7 @@ function App() {
             <Route exact path="/">
               {language ? <HeroEN /> : <HeroSV />}
               {language ? <OfferEN /> : <OfferSV />}
+              <ProductsEN />
               {language ? <QuotationEN /> : <QuotationSV />}
             </Route>
             <Route path="/about">{language ? <AboutEN /> : <AboutSV />}</Route>

@@ -11,7 +11,7 @@ const Hero = () => {
             <br></br>
             So what are you waiting for, register with us today and start being abnormal together with us!
               </p>
-
+            
             <button className={Styles.heroButton}>Click here</button>
         </div>
       </div>
