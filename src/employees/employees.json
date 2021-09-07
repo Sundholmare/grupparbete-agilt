@@ -4,7 +4,8 @@
     "lastName": "Hansen",
     "role": "Chief Technical Officer",
     "email": "tim.hansen@swervice.com",
-    "desc": "Tim, the big brain of the company. With his bright mind we have gotten over our biggest hurdles and improved our workflow tenfold! When it comes to technical challenges, he's our man.",
+    "desc": "Tim, the big brain of the company. His bright mind has gotten us over our biggest hurdles and improved our workflow tenfold! When it comes to technical challenges, he's our man.",
+    "descSV": "Tim, företagets stora hjärna. Med hans kloka huvud har vi tagit oss över våra största hinder och förbättrat vårt arbetsflöde tiofaldigt! När det kommer till tekniska utmaningar så är han vårt ess i rockärmen.",
     "id": 1 
 },
 {
@@ -13,6 +14,7 @@
     "role": "Chief Financial Officer",
     "email": "frida.waldt@swervice.com",
     "desc": "Swervice very own Wolf of Wall Street! Brilliant head for numbers and a giant heart for friendship. With this girl at our company there are no numbers too big.",
+    "descSV": "Swervice helt egna Wolf of Wall Street! Otroligt sinne för siffror och ett stort hjärta för vänskap. Med denna tjejen på vårt företag så finns det inga siffror som är för stora.",
     "id": 2
 },
 {
@@ -21,6 +23,7 @@
     "role": "Head of Human Resources",
     "email": "marcus.jarveskog@swervice.com",
     "desc": "Marcus the teddybear as we like to call him. Putting human rights and comfort at the workplace as number 1 priority, this guy makes everyone feel at home.",
+    "descSV": "Nallebjörnen Marcus som vi kallar honom. Sätter mänskliga rättigheter och komfort på arbetsplatsen som första prio, denna killen får alla att känna sig som hemma.",
     "id": 3
 },
 {
@@ -29,6 +32,7 @@
     "role": "Head of Janitorial Services",
     "email": "filip.sundholm@swervice.com",
     "desc": "Some of you might have seen Filip out on your tasks but you might not know that he also maintains the company's own fascillities and logistical services.",
+    "descSV": "Vissa av er har kanske träffat Filip ute på era ärenden men ni kanske inte vet att han också sköter företagets egna anordningar och logistik.",
     "id": 4
 },
 {
@@ -37,6 +41,7 @@
     "role": "Receptionist",
     "email": "miriam.bryant@swervice.com",
     "desc": "Not only does she answer all your calls with the biggest smile, but she also sings on her freetime! She puts the Swervice name out there with her lovely songs.",
+    "descSV": "Inte bara att hon svarar på alla era samtal med det störta leendet, hon sjunger också på sin egentid! Hon sätter Swervice namn på kartan med hennes underbara sånger.",
     "id": 5
 },
 {
@@ -45,6 +50,7 @@
     "role": "Gardening expert",
     "email": "olga.golga@swervice.com",
     "desc": "Olga is our most senior employee and she has never showed up to work without that well known eastern european smile! Loves the outdoors and takes care of your garden like it was her own.",
+    "descSV": "Olga är våran äldsta och mest långvariga anställd och hon har aldrig kommit in till jobbet utan det där välkända östeuropeiska leendet! Hon älskar friluftslivet och tar hand om eran trädgård som att den vore sin egen.",
     "id": 6
 },
 {
@@ -53,6 +59,7 @@
     "role": "First responder",
     "email": "tony.toyota@swervice.com",
     "desc": "Tony the handyman! He knows his way around every tool and around every hard problem. Our customers have always told us how happy they are that Tony was available to help them out with their chores.",
+    "descSV": "Hantlangaren Tony! Han kan arbeta med varenda verktyg och löser varenda problem. Våra kunder har alltid berättat för oss hur glada dom är när Tony kommer förbi och utför sin magi på deras ärenden.",
     "id": 7
 }
 ]

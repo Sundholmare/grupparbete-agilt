@@ -1,24 +1,31 @@
 import employees from '../../employees/employees.json';
 import Styles from './about.module.css'
 import bosse from './20200807_203247_2.jpg';
-import logga from '../../images/loggor/logganamn.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
+
 
     return (
         <div className={Styles.wrapper}>
             <main className={Styles.mainBox}>
                 <section className={Styles.hero}>
-                    <img className={Styles.logo} src={logga} alt="logo" />
-                    <h1 className={Styles.catch}>Abnormal is the new normal</h1>
+                    <h1 className={Styles.logo}>Swervice</h1>
+                    <h1 className={Styles.catch}>ABNORMAL IS THE NEW NORMAL</h1>
                     <p className={Styles.desc}>We are here to help you with your day-to-day chores.
                         Don't have time to mow the lawn? We got you!
                         Can't be bothered to clean up after last nights celebration? We're on it!
                         No task is too odd and no request too large.
                         We at Swervice got your back seven days a week.
                     </p>
+                    <div className={Styles.dividerBar}>
+                        <h2 className={Styles.divider}>This is our team</h2>
+                        <a href="#anchor"><FontAwesomeIcon icon={faChevronDown} size="4x" className={Styles.icon} /></a>
+                    </div>
+                    
                 </section>
-                <div className={Styles.container}>
+                <div className={Styles.container} id="anchor" >
                     <div className={Styles.userBox}>
                     <h2 className={Styles.name}>Bosse Waldt</h2>
                             <h4 className={Styles.role}>Chief Executive Officer</h4>
