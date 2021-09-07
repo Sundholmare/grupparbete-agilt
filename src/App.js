@@ -9,11 +9,12 @@ import OfferEN from './components/Offer/index';
 import OfferSV from './components/Offer/indexSV';
 import QuotationEN from './components/Quotation/index'
 import QuotationSV from './components/Quotation/indexSV'
-
 import Footer from './components/Footer';
-import Faq from './components/Faq';
-import Contact from './components/Contact/index';
+import Faq from './components/Faq/index';
+import FaqSV from './components/Faq/indexSV'
+import Contact from './components/Contact';
 import ContactEN from './components/Contact/indexEn';
+
 import { useSelector } from 'react-redux';
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
             </Route>
             <Route path="/about">{language ? <AboutEN /> : <AboutSV />}</Route>
             <Route path="/faq">
-              <Faq />
+            {language ? <Faq /> : <FaqSV />}
             </Route>
             <Route path="/contact">
               {language ? <ContactEN /> : <Contact />}

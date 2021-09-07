@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Styles from './faq.module.css';
 
+
 const Question = (props) => {
 
   const [active, setActive] = useState(false);
