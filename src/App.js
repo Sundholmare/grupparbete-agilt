@@ -15,6 +15,7 @@ import Faq from './components/Faq/index';
 import FaqSV from './components/Faq/indexSV'
 import Contact from './components/Contact';
 import ContactEN from './components/Contact/indexEn';
+import News from './components/news/index';
 
 import { useSelector } from 'react-redux';
 
@@ -39,7 +40,9 @@ function App() {
             <Route path="/contact">
               {language ? <ContactEN /> : <Contact />}
             </Route>
-            <Faq />
+            <Route>
+              <News path="/news" />
+            </Route>
           </Switch>
           {language ? <Footer /> : <FooterSV />}
         </div>
