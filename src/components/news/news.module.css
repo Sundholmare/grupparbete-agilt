@@ -44,7 +44,7 @@ h4{
   font-weight: normal;
 }
 
-button{
+.content button{
   font-size: 18px;
   font-weight: bold;
   margin: 5px 10px;
@@ -55,7 +55,7 @@ button{
   border-radius: 6px;
 }
 
-button:hover, button:focus{
+.content button:hover, .content button:focus{
   background-color: var(--orange);
   color: white;
 }
