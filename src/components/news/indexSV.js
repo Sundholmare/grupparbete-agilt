@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import list from './list.json';
+import list from './listSV.json';
 import Style from './news.module.css'
 
 
@@ -49,17 +49,17 @@ const News = () => {
                 <div className={Style.content}>
                     <div className={Style.filterBox}>
                         <div className={Style.filter}>
-                            <h4>Filter</h4>
+                            <h4>Filtrera</h4>
                             <span>
-                                <button onClick={() => filter("News")} >News</button>
-                                <button onClick={() => filter("Article")} >Article</button>
+                                <button onClick={() => filter("News")} >Nyheter</button>
+                                <button onClick={() => filter("Article")} >Artiklar</button>
                             </span>
                         </div>
                         <div className={Style.sort}>
-                            <h4>Sort by date</h4>
+                            <h4>Sortera efter datum</h4>
                             <span>
-                                <button onClick={() => descendingSort()} >Newest</button>
-                                <button onClick={() => ascendingSort()} >Oldest</button>
+                                <button onClick={() => descendingSort()} >Nyast</button>
+                                <button onClick={() => ascendingSort()} >Äldst</button>
                             </span>
                         </div>
                     </div>
@@ -67,11 +67,11 @@ const News = () => {
                         <article className={Style.article} key={item.id}>
                             <div className={Style.articleContent}>
                                 <h2 className={Style.heading}>{item.title}</h2>
-                                <p className={Style.author}>By: {item.author}</p>
+                                <p className={Style.author}>Av: {item.author}</p>
                             </div>
                             <div className={Style.articleContent}>
                                 <p className={Style.date}>{item.date}</p>
-                                <p className={item.type === 'Article' ? `${Style.type}` : `${Style.type} ${Style.purple}`}>{item.type}</p>
+                                <p className={item.type === 'Artikel' ? `${Style.type}` : `${Style.type} ${Style.purple}`}>{item.type}</p>
                             </div>
                         </article>
                     ))}
