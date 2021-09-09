@@ -7,16 +7,11 @@ import HeroEN from './components/Hero/index';
 import HeroSV from './components/Hero/indexSV';
 import OfferEN from './components/Offer/index';
 import OfferSV from './components/Offer/indexSV';
-<<<<<<< HEAD
 import QuotationEN from './components/Quotation/index';
 import QuotationSV from './components/Quotation/indexSV';
 import ProductsEN from './components/Products/index';
 import ProductsSV from './components/Products/indexSV';
 
-=======
-import QuotationEN from './components/Quotation/index'
-import QuotationSV from './components/Quotation/indexSV'
->>>>>>> 1d683b5e55a8b4fec34b1ccae7d8645872ad51a0
 import Footer from './components/Footer';
 import Faq from './components/Faq/index';
 import FaqSV from './components/Faq/indexSV'

@@ -1,4 +1,5 @@
 import Styles from "./products.module.css";
+import products from './products.json'
 
 
 const Products = () => {
@@ -31,7 +32,16 @@ const Products = () => {
                 <li>UX Testing</li>
             </ul>
         </section>
-        <section className={Styles.productsList}></section>
+        <section className={Styles.productsList}>
+            {products.map((product) => {
+                return <div className={Styles.productCard} key={product.id}>
+                    <div className={Styles.productImage}><img src={product.img} alt="" /></div>
+                    <h2 className={Styles.productTitle}>{product.title}</h2>
+                    <h3 className={Styles.productPrice}>{product.price}</h3>
+                    <button className={Styles.productButton}>See Listings</button>
+                </div>
+            })}
+        </section>
       </div>
     );
   };
