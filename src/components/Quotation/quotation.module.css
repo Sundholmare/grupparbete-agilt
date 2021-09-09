@@ -8,7 +8,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 5rem;
 }
 
 .quotaQuestion {
@@ -71,29 +70,28 @@
   width: 100%;
 }
 
-.quotaForm span input{
+.quotaForm span input {
   width: 48%;
 }
 
-
-.quotaForm input, .quotaForm textarea{
+.quotaForm input,
+.quotaForm textarea {
   width: 100%;
   padding: 8px 20px;
   margin: 10px 0;
   border: 1px solid #999999;
   border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000000b9;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
-.quotaForm textarea{
+.quotaForm textarea {
   padding: 50px;
 }
 
-
 .quotaForm button {
-  background: #8A607D;
+  background: #8a607d;
   color: #fff;
   border: 0;
   padding: 12px 50px;

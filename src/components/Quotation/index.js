@@ -12,22 +12,22 @@ const Quotation = () => {
             <div className={Styles.quotaForm}>
                 <form >
                     <div>
-                        <label for="name">Name</label>
+                        <label htmlFor="name">Name</label>
                             <span>
                                 <input type="text" id="name" name="fname" />
                                 <input type="text" id="name" name="lname" />
                             </span>
                     </div>
                     <div>
-                        <label for="email">Email</label>
+                        <label htmlFor="email">Email</label>
                             <input type="text" id="email" name="email" />
                     </div>
                     <div>
-                        <label for="phone">Phone</label>
+                        <label htmlFor="phone">Phone</label>
                             <input type="text" id="phone" name="phone" />
                     </div>
                     <div>
-                        <label for="message">Message</label>
+                        <label htmlFor="message">Message</label>
                             <textarea id="message" name="message" />
                     </div>
                     <button>Send</button>

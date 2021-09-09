@@ -7,9 +7,11 @@ import HeroEN from './components/Hero/index';
 import HeroSV from './components/Hero/indexSV';
 import OfferEN from './components/Offer/index';
 import OfferSV from './components/Offer/indexSV';
-import QuotationEN from './components/Quotation/index'
-import QuotationSV from './components/Quotation/indexSV'
-import Footer from './components/Footer/index';
+import QuotationEN from './components/Quotation/index';
+import QuotationSV from './components/Quotation/indexSV';
+import ProductsEN from './components/Products/index';
+import ProductsSV from './components/Products/indexSV';
+import Footer from './components/Footer';
 import FooterSV from './components/Footer/indexSV'
 import Faq from './components/Faq/index';
 import FaqSV from './components/Faq/indexSV'
@@ -32,6 +34,7 @@ function App() {
             <Route exact path="/">
               {language ? <HeroEN /> : <HeroSV />}
               {language ? <OfferEN /> : <OfferSV />}
+              {language ? <ProductsEN /> : <ProductsSV />}
               {language ? <QuotationEN /> : <QuotationSV />}
               {language ? <News /> : <NewsSV />}
             </Route>
