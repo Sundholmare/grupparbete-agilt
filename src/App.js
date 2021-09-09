@@ -17,8 +17,8 @@ import Faq from './components/Faq/index';
 import FaqSV from './components/Faq/indexSV'
 import Contact from './components/Contact';
 import ContactEN from './components/Contact/indexEn';
-import News from './components/News/index';
-import NewsSV from './components/News/indexSV';
+import News from './components/news/index';
+import NewsSV from './components/news/indexSV';
 
 import { useSelector } from 'react-redux';
 
