@@ -153,7 +153,7 @@
 
 .dividerBar{
     background: var(--lightPurple);
-    width: 100%;
+    width: 110%;
     height: 200px;
     display: flex;
     flex-direction: column;

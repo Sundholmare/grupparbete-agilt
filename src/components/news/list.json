@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Woodpecker flew straight into Swervice's office window.",
+        "date": "2021/08/14",
+        "author": "Peter Journalisto",
+        "type": "News",
+        "id": 1
+    },
+    {
+        "title": "Swervice updates their list of possible chores.",
+        "date": "2021/08/17",
+        "author": "John Articlesson",
+        "type": "Article",
+        "id": 2
+    },
+    {
+        "title": "Price of Spagghetti rises 70%",
+        "date": "2021/08/21",
+        "author": "Peter Journalisto",
+        "type": "News",
+        "id": 3
+    },
+    {
+        "title": "Swervice employee Tim Hansen, injured in dance-related incident.",
+        "date": "2021/09/04",
+        "author": "Peter Journalisto",
+        "type": "News",
+        "id": 4
+    },
+    {
+        "title": "Swervice nominated for Most Innovative Business.",
+        "date": "2021/08/28",
+        "author": "John Articlesson",
+        "type": "Article",
+        "id": 5
+    },
+    {
+        "title": "Why you should let Swervice do your gardening.",
+        "date": "2021/08/09",
+        "author": "Peter Journalisto",
+        "type": "News",
+        "id": 6
+    },
+    {
+        "title": "Swervice CEO Bosse Waldt, dissapointed in amount of belly-scratching per day",
+        "date": "2021/08/02",
+        "author": "John Articlesson",
+        "type": "Article",
+        "id": 7
+    },
+    {
+        "title": "Google looking to buy promising company Swervice",
+        "date": "2021/09/13",
+        "author": "Peter Journalisto",
+        "type": "News",
+        "id": 8
+    }
+]

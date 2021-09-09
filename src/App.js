@@ -11,12 +11,14 @@ import QuotationEN from './components/Quotation/index';
 import QuotationSV from './components/Quotation/indexSV';
 import ProductsEN from './components/Products/index';
 import ProductsSV from './components/Products/indexSV';
-
 import Footer from './components/Footer';
+import FooterSV from './components/Footer/indexSV'
 import Faq from './components/Faq/index';
 import FaqSV from './components/Faq/indexSV'
 import Contact from './components/Contact';
 import ContactEN from './components/Contact/indexEn';
+import News from './components/News/index';
+import NewsSV from './components/News/indexSV';
 
 import { useSelector } from 'react-redux';
 
@@ -34,6 +36,7 @@ function App() {
               {language ? <OfferEN /> : <OfferSV />}
               {language ? <ProductsEN /> : <ProductsSV />}
               {language ? <QuotationEN /> : <QuotationSV />}
+              {language ? <News /> : <NewsSV />}
             </Route>
             <Route path="/about">{language ? <AboutEN /> : <AboutSV />}</Route>
             <Route path="/faq">
@@ -42,9 +45,8 @@ function App() {
             <Route path="/contact">
               {language ? <ContactEN /> : <Contact />}
             </Route>
-            <Faq />
           </Switch>
-          <Footer />
+          {language ? <Footer /> : <FooterSV />}
         </div>
       </div>
     </Router>

@@ -18,16 +18,18 @@
 }
 
 .quotaBox {
-  height: 497px;
+  height: fit-content;
   width: 973.9px;
   background-color: #ffffff;
   text-align: center;
   border-radius: 5px;
+  padding-bottom: 10px;
 }
 
 .quotaTitleBox {
   background-color: #e3e2e2;
   height: 68px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,41 +42,44 @@
 }
 
 .quotaForm {
-  /* display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 30px; */
   width: 100%;
+}
+
+.quotaForm form {
+  width: 50%;
 }
 
 .quotaForm div {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
 }
 
 .quotaForm label {
-  text-align: right;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
-  margin-right: 1rem;
-  width: 200px;
 }
 
 .quotaForm span {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
-.quotaForm input {
+.quotaForm span input {
+  width: 48%;
 }
 
 .quotaForm input,
 .quotaForm textarea {
-  width: 400px;
+  width: 100%;
   padding: 8px 20px;
   margin: 10px 0;
   border: 1px solid #999999;
-  display: block;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   color: #000000b9;
@@ -83,11 +88,6 @@
 
 .quotaForm textarea {
   padding: 50px;
-}
-
-.quotaForm input:nth-child(1),
-.quotaForm input:nth-child(2) {
-  width: 190px;
 }
 
 .quotaForm button {
