@@ -32,7 +32,7 @@ function App() {
             <Route exact path="/">
               {language ? <HeroEN /> : <HeroSV />}
               {language ? <OfferEN /> : <OfferSV />}
-              <ProductsEN />
+              {language ? <ProductsEN /> : <ProductsSV />}
               {language ? <QuotationEN /> : <QuotationSV />}
             </Route>
             <Route path="/about">{language ? <AboutEN /> : <AboutSV />}</Route>
