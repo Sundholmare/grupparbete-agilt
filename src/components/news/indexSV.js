@@ -43,6 +43,11 @@ const News = () => {
         setCurrent((prevCurrent) => [...sorted]);
     }
 
+    const reset = () => {
+        setCurrent(items);
+    }
+
+
     return (
         <main className={Style.background}>
             <div className={Style.wrapper}>
@@ -51,8 +56,9 @@ const News = () => {
                         <div className={Style.filter}>
                             <h4>Filtrera</h4>
                             <span>
-                                <button onClick={() => filter("News")} >Nyheter</button>
-                                <button onClick={() => filter("Article")} >Artiklar</button>
+                                <button onClick={() => filter("Nyhet")} >Nyheter</button>
+                                <button onClick={() => filter("Artikel")} >Artiklar</button>
+                                <button onClick={() => reset()} >Återställ</button>
                             </span>
                         </div>
                         <div className={Style.sort}>
