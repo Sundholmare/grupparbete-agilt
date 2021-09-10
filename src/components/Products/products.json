@@ -32,33 +32,33 @@
 }, 
 {
     "img": "https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2017/09/The-Dos-and-Donts-of-Watering-Plants.jpg",
-    "title": "Water Flowers",
-    "titleSV": "Vattna blommor",
-    "price": "From 299kr",
-    "priceSV": "Från 299kr",
+    "title": "Plant flowers",
+    "titleSV": "Plantera blommor",
+    "price": "From 199kr",
+    "priceSV": "Från 199kr",
     "id": 5
 },
 {
     "img": "https://545808-1749583-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/07/how-to-clear-a-garden-full-of-weeds.jpg",
-    "title": "Clear out weed",
-    "titleSV": "Rensa ogräs",
+    "title": "Lay new grass",
+    "titleSV": "Plantera nytt gräs",
     "price": "From 399kr",
     "priceSV": "Från 399kr",
     "id": 6
 },
 {
     "img": "https://www.thespruce.com/thmb/4440YNaSvXSk68ocOLcyHBNfwMA=/2121x1193/smart/filters:no_upscale()/Mowinglawn-GettyImages-184151861-5a349e497d4be800376094ca.jpg",
-    "title": "Mow the lawn",
-    "titleSV": "Klippa gräset",
-    "price": "From 499kr",
-    "priceSV": "Från 499kr",
+    "title": "Build a deck",
+    "titleSV": "Bygg ett trädäck",
+    "price": "From 899kr",
+    "priceSV": "Från 899kr",
     "id": 7
 },
 {
     "img": "https://roohome.com/wp-content/uploads/2020/12/When-Should-You-Trim-A-Hedge-e1607569870366-1280x720.jpg",
-    "title": "Trim the hedge",
-    "titleSV": "Klippa häcken",
-    "price": "From 699kr",
-    "priceSV": "Från 699kr",
+    "title": "Garden sculptures",
+    "titleSV": "Trädgårdsskulptur",
+    "price": "From 999kr",
+    "priceSV": "Från 999kr",
     "id": 8
 }]
